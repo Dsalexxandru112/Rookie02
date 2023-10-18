@@ -1,13 +1,31 @@
 public class Homework {
     public static void main(String[] args)
     {
-        int var1 = 4;
-        int var2 = 12;
-        int var3 = 16;
-        int var4 = 26;
+        //1
+        System.out.println(10*6);
+        //2
+        System.out.println(10/5);
+        //3
+        int x = 10;
+        ++x;
+        System.out.println(x); // =11
+        //4
+        x+=5;
+        System.out.println(x); // =16
+        //5
+        int y = 10;
+        int z = 20;
+        int k = y+z;
 
-        System.out.println(var1+var2+var3+var4);
-        System.out.println(var1*var2*var3*var4);
-        System.out.println(var4/var2);//
+        if(k>=10) {
+            System.out.println("suma este mai mare decat 10");
+        }
+        else System.out.println("suma este mai mica decat 10");
+
+        //6
+        if (k%2==0) {
+            System.out.println("suma este numar par");
+        }
+        else System.out.println("suma este numar impar");
     }
 }
