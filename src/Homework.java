@@ -8,6 +8,6 @@ public class Homework {
 
         System.out.println(var1+var2+var3+var4);
         System.out.println(var1*var2*var3*var4);
-        System.out.println(var4/var2);
+        System.out.println(var4/var2);//
     }
 }
