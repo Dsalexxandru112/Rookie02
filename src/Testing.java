@@ -1,6 +1,5 @@
-public class Homework {
-    public static void main(String[] args)
-    {
+public class Testing {
+    public static void main(String[] args){
         // Optionals (4)
 
         int var1 = 5;
