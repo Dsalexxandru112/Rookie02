@@ -1,6 +1,5 @@
-public class Testing {
+public class HomeWorkConditionals {
     public static void main(String[] args) {
-
         // 1) Scrieti un program care sa afiseze toate numerele intregi de la 0 pana la 10 (inclusiv).
 
         for (int i = 0; i <= 10; i++)
