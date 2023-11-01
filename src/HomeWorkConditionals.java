@@ -40,5 +40,61 @@ public class HomeWorkConditionals {
             case 11: System.out.println("Noiembrie"); break;
             case 12: System.out.println("Decembrie"); break;
         }
+
+        // Exercitii optionale (Conditionals)
+
+        // 1)
+
+        int temperature = 21;
+
+        if (temperature < 18){
+            System.out.println("too cold");
+        }
+        else if ((temperature>18) & (temperature<22)){
+            System.out.println("ok");
+        }
+        else if (temperature>22){
+            System.out.println("too hot");
+        }
+
+        // 2)
+
+        char gender = 'M';
+
+        boolean married = false;
+
+        if (married = true){
+            System.out.println(gender + " " + "is to be considered" + " " + "Domnul");
+        }
+
+        // 3)
+
+        int min = 4;
+        int even = 9;
+
+        if (min>even){
+            System.out.println("min is bigger than max");
+        }
+        else if(even>min){
+            System.out.println("max is bigger than min");
+        }
+        else if(even==min){
+            System.out.println("the two numbers are equal");
+        }
+
+        // 4)
+
+        int max = 20;
+
+        if(min >= even){
+            if(min >= max)
+                System.out.println(min + " " + "is the largest number");
+            else System.out.println(max + " " + "is the largest number");
+        }
+        else {
+            if(even >= max)
+                System.out.println(even + " " + "is the largest number");
+            else System.out.println(max + " " + "is the largest number");
+            }
+        }
     }
-}
