@@ -27,16 +27,24 @@ public class HomeworkAlgoritmi {
 
         for (String c: countries){
             System.out.println(c.charAt(0));
+
             //6)
+
             if(c.charAt(0) == 'A')
             {System.out.println(c);}
+
             //7)
             System.out.println(c.length());
         }
+        //8)
+
         for(String c: countries){
             if((c.length())>9){
                 System.out.println(c);
             }
+
+            //9)
+
             else if ((c.length())<4){
                 System.out.println(c);
             }
